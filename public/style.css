@@ -1,0 +1,10 @@
+*{box-sizing:border-box;font-family:Inter,Arial,Helvetica,sans-serif}
+body{background:#000000;color:#ffffff;margin:0;padding:20px}
+.container{max-width:720px;margin:40px auto;background:rgb(24, 24, 24);padding:24px;border-radius:8px;box-shadow:0 6px 18px rgba(0,0,0,0.06)}
+h1{margin:0 0 12px}
+form{display:flex;flex-direction:column;gap:8px}
+input,select,button{padding:10px;border:1px solid #ff0000;border-radius:6px}
+button{background:#eb1f1f;color:#ffffff;border:none;cursor:pointer}
+button:hover{opacity:.95}
+#programList{list-style:none;padding:0;margin:0}
+#programList li{padding:10px;border-bottom:1px solid #5a5a5a;display:flex;justify-content:space-between}

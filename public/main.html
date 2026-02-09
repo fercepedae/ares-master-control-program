@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>ARES Control - Panel</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>ARES Control - Panel</h1>
+    <button id="logout">Cerrar sesión</button>
+
+    <section>
+      <h2>Crear Programa</h2>
+      <form id="createForm">
+        <input id="name" name="name" placeholder="Nombre" required minlength="3">
+        <input id="description" name="description" placeholder="Descripción">
+        <select id="priority" name="priority">
+          <option value="low">Low</option>
+          <option value="medium" selected>Medium</option>
+          <option value="high">High</option>
+          <option value="critical">Critical</option>
+        </select>
+        <button type="submit">Crear</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>Programas</h2>
+      <ul id="programList"></ul>
+    </section>
+  </div>
+  <script src="/main.js"></script>
+</body>
+</html>
