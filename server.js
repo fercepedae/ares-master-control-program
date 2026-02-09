@@ -10,6 +10,11 @@ console.log('WORKDIR:', process.cwd());
 
 const app = express();
 
+const adminUser = process.env.ADMIN_USERNAME;
+const adminPass = process.env.ADMIN_PASSWORD;
+
+
+
 // Middlewares
 app.use(express.json());
 app.use(express.static(path.join(__dirname, 'public')));
