@@ -5,8 +5,9 @@
     "dotenv": "^17.2.3",
     "express": "^5.2.1",
     "git": "^0.1.5",
-    "heroku": "^8.7.1",
+    "heroku": "^8.1.9",
     "jsonwebtoken": "^9.0.3",
+    "mongodb": "^7.1.0",
     "mongoose": "^9.1.6"
   },
   "name": "api-auth",
